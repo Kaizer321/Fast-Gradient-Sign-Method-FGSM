@@ -5,11 +5,11 @@ __pycache__/
 venv/
 .env
 
-# Data and Models (Too large for git/submission)
-*.pth
+# Data and Models
+# *.pth  <-- Commented out: You can push the model if you want (it's small)
+# mnist_model.pth <-- Commented out
 data/
 backend/data/
-mnist_model.pth
 
 # Node.js / Next.js
 node_modules/

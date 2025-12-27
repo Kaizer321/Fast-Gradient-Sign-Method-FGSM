@@ -195,7 +195,7 @@ export default function Home() {
               `}>
                                 {result.success
                                     ? "Attack Successful! The model was fooled."
-                                    : "Attack Failed. The model prediction remained unchanged."}
+                                    : "Attack Failed. The original prediction remained unchanged."}
                             </div>
                         )}
 
